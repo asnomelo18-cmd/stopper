@@ -1,0 +1,14 @@
+{
+  "name": "stopper",
+  "version": "1.2.0",
+  "private": true,
+  "description": "Extension Chrome / Edge (Manifest V3) qui bloque les publicités, les traqueurs et les pop-ups.",
+  "license": "GPL-3.0-or-later",
+  "scripts": {
+    "build": "node tools/build.js",
+    "build:offline": "node tools/build.js --offline"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

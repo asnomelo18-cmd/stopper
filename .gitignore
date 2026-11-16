@@ -1,0 +1,18 @@
+# Listes brutes téléchargées par tools/build.js (régénérables)
+tools/cache/
+
+# Index créé par Chrome au chargement de l'extension non empaquetée
+_metadata/
+
+# Paquets / archives
+*.zip
+*.crx
+*.pem
+
+# Divers
+node_modules/
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/

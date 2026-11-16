@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Stopper</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <header>
+    <img src="icons/icon48.png" alt="" width="28" height="28">
+    <h1>Stopper</h1>
+    <span class="version" id="version"></span>
+  </header>
+
+  <section class="row">
+    <span>Protection</span>
+    <label class="switch">
+      <input type="checkbox" id="enabled">
+      <span class="slider"></span>
+    </label>
+  </section>
+
+  <section class="stat">
+    <div class="count" id="count">0</div>
+    <div class="label">éléments bloqués sur cette page</div>
+    <div class="popups" id="popups"></div>
+  </section>
+
+  <section class="site">
+    <div class="host" id="host">—</div>
+    <button id="allow">Autoriser les pubs sur ce site</button>
+  </section>
+
+  <p class="hint" id="hint">Rechargez la page pour appliquer les changements.</p>
+
+  <script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+* text=auto eol=lf
+*.png binary
+
+# Fichiers générés : pas de diff ligne à ligne sur GitHub
+rules/easylist.json linguist-generated=true -diff
+rules/easyprivacy.json linguist-generated=true -diff
+rules/liste_fr.json linguist-generated=true -diff
+generated/*.json linguist-generated=true -diff
